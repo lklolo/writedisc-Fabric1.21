@@ -12,11 +12,19 @@ import java.io.IOException;
 
 public class main {
     public static void main(String[] args) throws CannotReadException, IOException {
-        // 指定模板文件目录
+
+        //软件包“gentools”是数据生成工具，里面填写了默认内容，请按需更改。（随意更改可能导致变量名、namespace、identifier无法对应）
+        //软件包”tool“是工具类包，请忽视它
+        //使用前请清楚地知道生成的数据该放到哪里
+        //所有在.txt文件中生成的内容都是代码
+        //某些在.txt文件中生成的内容（例如“lang.txt”、“tags.txt”），为数据生成器的代码，应填入Fabric的提供的数据生成器中再次生成
+        //使用时请将要读取的文件放入下方设置的模板文件目录，程序会自动遍历读取文件名
+
+        // 模板文件目录
         String directoryPath = "F:/IDEA/Adisc/writejsons/template";
         // 指定文件扩展名
         String extension = ".ogg";
-        // 指定各内容输出目录或文件
+        // 指定各数据生成工具内容输出目录或文件
         String jukebox_songPath = "F:/IDEA/Adisc/writejsons/gen/jukebox_song";
         String modelsPath = "F:/IDEA/Adisc/writejsons/gen/models";
         String fabricItemGroupsPath = "F:/IDEA/Adisc/writejsons/gen/fabricitemgroups.txt";
@@ -31,7 +39,6 @@ public class main {
 
         System.out.println("--------------------");
 
-        //运行前清理文件或目录
         DirectoryCleaner.directoryCleaner(jukebox_songPath);
         DirectoryCleaner.directoryCleaner(modelsPath);
         FileCleaner.fileCleaner(fabricItemGroupsPath);
