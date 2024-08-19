@@ -1,0 +1,14 @@
+fabricItemGroupEntries.add(ADISC_MUSIC_DISC_BOND_EIGHTH);
+fabricItemGroupEntries.add(ADISC_MUSIC_DISC_BOND_ELEVENTH);
+fabricItemGroupEntries.add(ADISC_MUSIC_DISC_BOND_FIFTH);
+fabricItemGroupEntries.add(ADISC_MUSIC_DISC_BOND_FIRST);
+fabricItemGroupEntries.add(ADISC_MUSIC_DISC_BOND_FOURTEENTH);
+fabricItemGroupEntries.add(ADISC_MUSIC_DISC_BOND_FOURTH);
+fabricItemGroupEntries.add(ADISC_MUSIC_DISC_BOND_NINTH);
+fabricItemGroupEntries.add(ADISC_MUSIC_DISC_BOND_SECOND);
+fabricItemGroupEntries.add(ADISC_MUSIC_DISC_BOND_SEVENTH);
+fabricItemGroupEntries.add(ADISC_MUSIC_DISC_BOND_SIXTH);
+fabricItemGroupEntries.add(ADISC_MUSIC_DISC_BOND_TENTH);
+fabricItemGroupEntries.add(ADISC_MUSIC_DISC_BOND_THIRD);
+fabricItemGroupEntries.add(ADISC_MUSIC_DISC_BOND_THIRTEENTH);
+fabricItemGroupEntries.add(ADISC_MUSIC_DISC_BOND_TWELFTH);

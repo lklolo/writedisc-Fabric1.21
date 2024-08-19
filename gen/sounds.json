@@ -1,0 +1,44 @@
+{
+  "adisc_music_disc.bond_eighth" : {
+    "sounds" : [ "adisc:bond_eighth" ]
+  },
+  "adisc_music_disc.bond_eleventh" : {
+    "sounds" : [ "adisc:bond_eleventh" ]
+  },
+  "adisc_music_disc.bond_fifth" : {
+    "sounds" : [ "adisc:bond_fifth" ]
+  },
+  "adisc_music_disc.bond_first" : {
+    "sounds" : [ "adisc:bond_first" ]
+  },
+  "adisc_music_disc.bond_fourteenth" : {
+    "sounds" : [ "adisc:bond_fourteenth" ]
+  },
+  "adisc_music_disc.bond_fourth" : {
+    "sounds" : [ "adisc:bond_fourth" ]
+  },
+  "adisc_music_disc.bond_ninth" : {
+    "sounds" : [ "adisc:bond_ninth" ]
+  },
+  "adisc_music_disc.bond_second" : {
+    "sounds" : [ "adisc:bond_second" ]
+  },
+  "adisc_music_disc.bond_seventh" : {
+    "sounds" : [ "adisc:bond_seventh" ]
+  },
+  "adisc_music_disc.bond_sixth" : {
+    "sounds" : [ "adisc:bond_sixth" ]
+  },
+  "adisc_music_disc.bond_tenth" : {
+    "sounds" : [ "adisc:bond_tenth" ]
+  },
+  "adisc_music_disc.bond_third" : {
+    "sounds" : [ "adisc:bond_third" ]
+  },
+  "adisc_music_disc.bond_thirteenth" : {
+    "sounds" : [ "adisc:bond_thirteenth" ]
+  },
+  "adisc_music_disc.bond_twelfth" : {
+    "sounds" : [ "adisc:bond_twelfth" ]
+  }
+}
