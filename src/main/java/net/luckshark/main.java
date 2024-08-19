@@ -1,6 +1,7 @@
 package net.luckshark;
 
 import net.luckshark.gentools.*;
+import net.luckshark.tool.Cleaner;
 import net.luckshark.tool.DirectoryCleaner;
 import net.luckshark.tool.FileCleaner;
 import net.luckshark.tool.OggDuration;
@@ -39,17 +40,7 @@ public class main {
 
         System.out.println("--------------------");
 
-        DirectoryCleaner.directoryCleaner(jukebox_songPath);
-        DirectoryCleaner.directoryCleaner(modelsPath);
-        FileCleaner.fileCleaner(fabricItemGroupsPath);
-        FileCleaner.fileCleaner(groupsPath);
-        FileCleaner.fileCleaner(itemsPath);
-        FileCleaner.fileCleaner(jukeboxsongsPath1);
-        FileCleaner.fileCleaner(jukeboxsongsPath2);
-        FileCleaner.fileCleaner(langPath);
-        FileCleaner.fileCleaner(soundsEventsPath);
-        FileCleaner.fileCleaner(soundsPath);
-        FileCleaner.fileCleaner(tagsPath);
+        Cleaner.clean(jukebox_songPath, modelsPath, fabricItemGroupsPath, groupsPath, itemsPath, jukeboxsongsPath1, jukeboxsongsPath2, langPath, soundsEventsPath, soundsPath, tagsPath);
 
         File directory = new File(directoryPath);
 

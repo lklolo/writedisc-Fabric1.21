@@ -10,7 +10,7 @@ import java.io.IOException;
 public class GenModels {
     public  static void gen(String filename, String directoryPath){
 
-        String texturesName = "bond";
+        String texturesName = "kon";
 
         ObjectMapper objectMapper = new ObjectMapper();
         ObjectNode jsonObject = objectMapper.createObjectNode();
