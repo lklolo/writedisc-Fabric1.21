@@ -2,8 +2,6 @@ package net.luckshark;
 
 import net.luckshark.gentools.*;
 import net.luckshark.tool.Cleaner;
-import net.luckshark.tool.DirectoryCleaner;
-import net.luckshark.tool.FileCleaner;
 import net.luckshark.tool.OggDuration;
 import org.jaudiotagger.audio.exceptions.CannotReadException;
 
